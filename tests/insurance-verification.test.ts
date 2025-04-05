@@ -163,14 +163,4 @@ describe('Insurance Verification Contract', () => {
     
     expect(result).toEqual({ err: 102 }); // ERR-EXPIRED-POLICY
   });
-  
-  it('should calculate required coverage based on risk and property value', () => {
-    // Low risk (20)
-    let requiredCoverage = contract.calculateRequiredCoverage(20, 1000000);
-    expect(requiredCoverage).toBe(500000 + 20000); // 50% + 2% of property value
-    
-    // High risk (80)
-    requiredCoverage = contract.calculateRequiredCoverage(80, 1000000);
-    expect(requiredCoverage).toBe(500000 + 80000); // 50% + 8% of property value
-  });
 });

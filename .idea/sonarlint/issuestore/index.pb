@@ -5,3 +5,7 @@ U
 %contracts/insurance-verification.clar,e/9/e9c4c76ce8b289407579705bd6442132e348bda8
 T
 $tests/insurance-verification.test.ts,f/a/fa8c91147948aeb84c4ec2186663c120d54942bc
+N
+contracts/risk-assessment.clar,9/b/9bd619b8006324502bc6596111bafe5f91076bc2
+M
+tests/risk-assessment.test.ts,e/9/e9e6a96a70c2cbf19d963c4403d69d9c6dc859d9
